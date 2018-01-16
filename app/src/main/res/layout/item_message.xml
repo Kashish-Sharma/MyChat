@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="16dp">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:id="@+id/imageLayout"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        app:cardBackgroundColor="#E1F5FE"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nameTextViewImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2B9DBA"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            tools:text="Name" />
+        <ImageView
+            android:id="@+id/photoImageView"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true" />
+    </android.support.v7.widget.CardView>
+
+
+<android.support.v7.widget.CardView
+    android:id="@+id/textLayout"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#E1F5FE"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#2B9DBA"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="Name" />
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:text="Message"
+        android:padding="10dp">
+    </TextView>
+</android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/imageLayoutOther"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            app:cardBackgroundColor="#F5F5F5"
+            android:layout_gravity="end">
+            <TextView
+                android:id="@+id/nameTextViewImageOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:gravity="end"
+                android:textColor="#00BFA5"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                tools:text="Name" />
+            <ImageView
+                android:id="@+id/photoImageViewOther"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="2dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/textLayoutOther"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            app:cardBackgroundColor="#F5F5F5"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/nameTextViewOther"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="6dp"
+                android:gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textColor="#00BFA5"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                tools:text="Name" />
+            <TextView
+                android:id="@+id/messageTextViewOther"
+                android:layout_width="wrap_content"
+                android:gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tools:text="Message"
+                android:padding="10dp">
+            </TextView>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
+
+
