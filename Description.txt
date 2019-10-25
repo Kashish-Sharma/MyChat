@@ -1,0 +1,1 @@
+This is a chat application that lets you to chat in groups where you can share tect as well as pictures. You could delete the message by swipping left or right.
